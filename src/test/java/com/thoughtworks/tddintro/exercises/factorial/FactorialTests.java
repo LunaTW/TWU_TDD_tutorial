@@ -45,7 +45,5 @@ public class FactorialTests {
 
     @Test(expected = IllegalArgumentException.class)
     //如果是负数应该抛出 Illegal Argument Exception
-    public void shouldThrowIllegalArgumentExceptionWhenNumberIsNegative(){
-        factorial.compute(-1);
-    }
+    public void shouldThrowIllegalArgumentExceptionWhenNumberIsNegative(){factorial.compute(-1);}
 }

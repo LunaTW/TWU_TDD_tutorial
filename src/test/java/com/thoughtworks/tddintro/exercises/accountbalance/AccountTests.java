@@ -5,19 +5,27 @@ import org.junit.Test;
 
 public class AccountTests {
     @Test
-    @Ignore  // Remove each @Ignore and implement test
+    //我存钱时应该增加我的余额
     public void shouldIncreaseMyBalanceWhenIDepositMoney(){
-        Account account = new Account();
+        //arrange
+        //Account account = new Account(100);
+
+        //action
+        //Integer DepositMoney = 50;
+
+        //assert
+        //assertThat(account.AccountBalance,is(150));
+
     }
 
     @Test
-    @Ignore  // Remove each @Ignore and implement test
+    //提款时应该减少我的余额
     public void shouldDecreaseMyBalanceWhenIWithdrawMoney(){
 
     }
 
     @Test
-    @Ignore  // Remove each @Ignore and implement test
+    //当我取款时钱不应该减少我的余额和不具备足够的余款
     public void shouldNotDecreaseMyBalanceWhenIWithdrawMoneyAndDoNotHaveEnoughToCoverTheWithdrawal(){
 
     }
